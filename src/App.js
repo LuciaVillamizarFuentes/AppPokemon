@@ -1,11 +1,15 @@
 import "./App.css";
 import Pokemons from "./components/Pokemons";
+import Filters from "./components/Filters";
+import TodoState from "./context/TodoState";
 
 function App() {
   return (
-    <div className="App">
+    <div style={{display: 'flex', flexDirection:'row'}} className="App">
+      <TodoState>
+      <Filters/>
       <Pokemons /> 
-      <h1> Hola mundo </h1>
+      </TodoState>
     </div>
   );
 }
