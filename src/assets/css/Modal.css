@@ -1,0 +1,57 @@
+.modalBackground{
+  display: flex;
+  flex-direction: column;
+}
+
+.modalContenctGe{
+  display: flex;
+  flex-direction: row;
+}
+
+.ContentImg{
+  width: 40%;
+  padding: 1rem;
+}
+
+.ContenctInfo{
+  width: 50%;
+}
+
+.imgModal{
+  background-size: cover;
+  width: 100%;
+  border: 2px solid #AEB6BF;
+}
+.ContenctInfoTitle{
+  display: flex;
+    flex-direction: row;
+}
+.id{
+  border: 1px solid #AEB6BF;
+    border-radius: 100px;
+    padding: 0.5rem;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.contenctTipo{
+  display: flex;
+  flex-direction: row;
+}
+
+.tipo{
+  border: 1px solid #AEB6BF;
+  margin-right: 1rem;
+  padding: 0.5rem;
+    border-radius: 20px;
+}
+.tabla{
+  width: 80%;
+  margin: auto;
+}
+.celdas{
+  border: 1px solid #AEB6BF;
+  text-align: center;
+}

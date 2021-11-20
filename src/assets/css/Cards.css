@@ -1,0 +1,15 @@
+.ContenedorList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: unset;
+    width: 98%;
+}
+
+.DivCardPokemon{
+    width: 30%;
+    border: 2px solid #AEB6BF;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
